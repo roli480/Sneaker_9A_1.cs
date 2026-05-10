@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KK Kicks.hu</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+     body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1400&auto=format&fit=crop') center/cover;
+      height: 80vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card img {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .btn-custom {
+      background-color: #ff4d4d;
+      color: white;
+    }
+
+    .btn-custom:hover {
+      background-color: #e63939;
+    }
+     .navbar-brand,
+    .nav-link {
+      color: white !important;
+      font-weight: bold;
+    }
+  </style>
+
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">👟 KK Kicks</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Főoldal</a></li>
+          <li class="nav-item"><a class="nav-link" href="termékek.html">Termékek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Akciók</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Kapcsolat</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-3 fw-bold">Modern Cipők Mindenkinek</h1>
+      <p class="lead">Stílus, kényelem és minőség egy helyen.</p>
+      <a href="#" class="btn btn-custom btn-lg mt-3">Vásárlás Most</a>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="container py-5">
+    <h2 class="text-center mb-5">Népszerű Cipők</h2>
+
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sport Cipő</h5>
+            <p class="card-text">Kényelmes és modern futócipő.</p>
+            <button class="btn btn-custom">19 990 Ft</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1000&auto=format&fit=crop" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title">Utcai Sneaker</h5>
+            <p class="card-text">Trendi sneaker mindennapi viselethez.</p>
+            <button class="btn btn-custom">24 990 Ft</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?q=80&w=1000&auto=format&fit=crop" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title">Elegáns Cipő</h5>
+            <p class="card-text">Tökéletes választás elegáns alkalmakra.</p>
+            <button class="btn btn-custom">29 990 Ft</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h2>Miért válassz minket?</h2>
+      <p class="mt-3">
+        Minőségi cipők, gyors szállítás és modern dizájn.
+        Vásárolj biztonságosan online!
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 KK Kicks | Minden jog fenntartva</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
