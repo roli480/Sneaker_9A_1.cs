@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KK Kicks.hu</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f5f5f5;
+    }
+
+    .navbar {
+      background-color: #111;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #111, #444);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .card img {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card {
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menü -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">👟 KK Kicks</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Főoldal</a></li>
+          <li class="nav-item"><a class="nav-link" href="termékek.html">Termékek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Akciók</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Kapcsolat</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- Fejléc -->
+  <section class="hero">
+    <h1>Modern  Cipők</h1>
+    <p>Csak a legjobb cipők egy helyen</p>
+  </section>
+
+  <!-- Cipők -->
+  <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- Cipő 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title">Nike Air Max</h5>
+            <p class="card-text">39 990 Ft</p>
+            <button class="btn btn-dark">Megnézem</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cipő 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title">Adidas UltraBoost</h5>
+            <p class="card-text">44 990 Ft</p>
+            <button class="btn btn-dark">Megnézem</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cipő 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title"> Vans Runner</h5>
+            <p class="card-text">29 990 Ft</p>
+            <button class="btn btn-dark">Megnézem</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cipő 4 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img  src= "./895155-large.webp" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title">Converse Classic</h5>
+            <p class="card-text">24 990 Ft</p>
+            <button class="btn btn-dark">Megnézem</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cipő 5 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title">Nike 574</h5>
+            <p class="card-text">34 990 Ft</p>
+            <button class="btn btn-dark">Megnézem</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cipő 6 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2" class="card-img-top" alt="cipő">
+          <div class="card-body text-center">
+            <h5 class="card-title">Nike  Street shoes</h5>
+            <p class="card-text">27 990 Ft</p>
+            <button class="btn btn-dark">Megnézem</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Lábléc -->
+  <footer>
+    <p>© 2026 KK Kicks - Minden jog fenntartva</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
